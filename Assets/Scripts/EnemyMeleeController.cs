@@ -107,7 +107,7 @@ public class EnemyMeleeController : MonoBehaviour
                 ResetSpeed();
             }
         }
-        UpdateAnimator();
+        //UpdateAnimator();
     }
 
     private void FixedUpdate()
