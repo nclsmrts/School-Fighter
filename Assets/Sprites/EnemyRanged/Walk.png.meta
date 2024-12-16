@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 0a7600a5a7e378f4bbad02f9b2dc86f0
+guid: 361847dece7e9f94c957fd3644a8bbb3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3561858456799500357
-    second: Idle (1)_0
+      213: 4035959289877228764
+    second: Walk_0
   - first:
-      213: 6852915482990001201
-    second: Idle (1)_1
+      213: -982904232830982447
+    second: Walk_1
   - first:
-      213: -7033020977862838341
-    second: Idle (1)_2
+      213: -350908408369970039
+    second: Walk_2
   - first:
-      213: -2475086675422401214
-    second: Idle (1)_3
+      213: -5409570386352685021
+    second: Walk_3
+  - first:
+      213: 1553940418269799609
+    second: Walk_4
+  - first:
+      213: 2416434504916517810
+    second: Walk_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,9 +88,35 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,14 +150,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle (1)_0
+      name: Walk_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 1
         y: 0
         width: 40
         height: 40
@@ -135,19 +180,19 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb7ae36ea9cb19ec0800000000000000
-      internalID: -3561858456799500357
+      spriteID: b193104e881a0ad4aaff57cc4e8d658b
+      internalID: 2110446121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle (1)_1
+      name: Walk_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 49
         y: 0
         width: 40
         height: 40
@@ -157,16 +202,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 13cb46fc2527a1f50800000000000000
-      internalID: 6852915482990001201
+      spriteID: 723635755987561448c8c4cc4953ea64
+      internalID: -267281410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle (1)_2
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 97
@@ -179,19 +224,19 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb77d94eea0b56e90800000000000000
-      internalID: -7033020977862838341
+      spriteID: 04e5ec5134b121b4a98db5d7a5379716
+      internalID: -369045565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle (1)_3
+      name: Walk_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 145
         y: 0
         width: 40
         height: 40
@@ -201,10 +246,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24d252348c9b6add0800000000000000
-      internalID: -2475086675422401214
+      spriteID: 1c2131612218df14b9c54be3aaf7ca11
+      internalID: -1756895502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78d3da7a0a462f459f4caab8008d3ce
+      internalID: 1208031282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee19607339fdf6148b09901fc8c6cf87
+      internalID: 1258974633
       vertices: []
       indices: 
       edges: []
@@ -213,7 +302,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 26a037691097f8e409cbc064abd5672e
+    spriteID: f124ffef09868f2418a25a6a290c3e35
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +312,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle (1)_0: -3561858456799500357
-      Idle (1)_1: 6852915482990001201
-      Idle (1)_2: -7033020977862838341
-      Idle (1)_3: -2475086675422401214
+      Walk_0: 2110446121
+      Walk_1: -267281410
+      Walk_2: -369045565
+      Walk_3: -1756895502
+      Walk_4: 1208031282
+      Walk_5: 1258974633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

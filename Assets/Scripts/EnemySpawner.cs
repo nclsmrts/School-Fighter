@@ -24,8 +24,6 @@ public class EnemySpawner : MonoBehaviour
                 LevelManager.ChangeSection(nextSextion);
                 this.gameObject.SetActive(false);
             }
-
-
         }
     }
 

@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 06f310ebaae4a084db5e1ddf0418dbba
+guid: 987121d92977b904bbd021649ce888e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8929304588701372190
-    second: Walk (1)_0
+      213: 6991849013916550155
+    second: Death_0
   - first:
-      213: -7065992382488818945
-    second: Walk (1)_1
+      213: -276728812324164698
+    second: Death_1
   - first:
-      213: -2636139936230232539
-    second: Walk (1)_2
+      213: 3156895337291164288
+    second: Death_2
   - first:
-      213: -7753022014378459724
-    second: Walk (1)_3
+      213: 1400002288684528572
+    second: Death_3
   - first:
-      213: 7094557282397545669
-    second: Walk (1)_4
+      213: -1891625820773287384
+    second: Death_4
   - first:
-      213: -6616482272229133236
-    second: Walk (1)_5
+      213: -5789737788129074030
+    second: Death_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -88,9 +88,35 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,11 +150,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk (1)_0
+      name: Death_0
       rect:
         serializedVersion: 2
         x: 3
@@ -141,19 +180,19 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1f8fc4c6334beb70800000000000000
-      internalID: 8929304588701372190
+      spriteID: 7969fba48695a8b45b1566aed59cd6a1
+      internalID: -829220489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk (1)_1
+      name: Death_1
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 0
         width: 40
         height: 40
@@ -163,19 +202,19 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffa43288d5d80fd90800000000000000
-      internalID: -7065992382488818945
+      spriteID: ead19d8ee17f909489b7a664d539e51c
+      internalID: -1556911187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk (1)_2
+      name: Death_2
       rect:
         serializedVersion: 2
-        x: 99
+        x: 101
         y: 0
         width: 40
         height: 40
@@ -185,19 +224,19 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52ea6c2e1bc8a6bd0800000000000000
-      internalID: -2636139936230232539
+      spriteID: 3a083f30a33349242a9c67358f79f005
+      internalID: 907659463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk (1)_3
+      name: Death_3
       rect:
         serializedVersion: 2
-        x: 147
+        x: 150
         y: 0
         width: 40
         height: 40
@@ -207,19 +246,19 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4bd30312e8bb76490800000000000000
-      internalID: -7753022014378459724
+      spriteID: 76829dded79d8b74197e635b5441b01a
+      internalID: 1753106646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk (1)_4
+      name: Death_4
       rect:
         serializedVersion: 2
-        x: 195
+        x: 199
         y: 0
         width: 40
         height: 40
@@ -229,19 +268,19 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c467ff724ee47260800000000000000
-      internalID: 7094557282397545669
+      spriteID: 693d1c7b21a4ea54390506284ecf7e97
+      internalID: 1458336551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk (1)_5
+      name: Death_5
       rect:
         serializedVersion: 2
-        x: 243
+        x: 248
         y: 0
         width: 40
         height: 40
@@ -251,10 +290,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c44fc15dd688d24a0800000000000000
-      internalID: -6616482272229133236
+      spriteID: a8a942915765d744bbee0f29e477b0dd
+      internalID: 1617333566
       vertices: []
       indices: 
       edges: []
@@ -263,7 +302,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a3e9e9e59ee11004888b847d8d960217
+    spriteID: 5f4d7e001930af64e97bbb27be537c55
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +312,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Walk (1)_0: 8929304588701372190
-      Walk (1)_1: -7065992382488818945
-      Walk (1)_2: -2636139936230232539
-      Walk (1)_3: -7753022014378459724
-      Walk (1)_4: 7094557282397545669
-      Walk (1)_5: -6616482272229133236
+      Death_0: -829220489
+      Death_1: -1556911187
+      Death_2: 907659463
+      Death_3: 1753106646
+      Death_4: 1458336551
+      Death_5: 1617333566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
