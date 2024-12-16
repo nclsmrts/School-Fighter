@@ -17,14 +17,14 @@ public class EnemySpawner : MonoBehaviour
         if (currentEnemies >= numberOfEnemies)
         {
             //contar a quantidade de inimigos ativos na cena 
-            int enemies = FindAnyObjectByType<EnemyMeleeController>(FindObjectsSortMode.None).length;
+            //int enemies = FindAnyObjectByType<EnemyMeleeController>(FindObjectsSortMode.None).length;
 
-            if (enemies <= 0)
-            {
-                LevelManager.ChangeSection(nextSextion);
+            //if (enemies <= 0)
+            //{
+            //    LevelManager.ChangeSection(nextSextion);
 
-                this.gameObject.SetActive(false);
-            }
+            //    this.gameObject.SetActive(false);
+            //}
 
             
         }
