@@ -26,13 +26,19 @@ public class PlayerController : MonoBehaviour
     private bool comboControl;
 
     //indique se esta vivo ou morto
-    private bool isDead;
+    public bool isDead;
 
     //propriedades para a UI
     public int maxHealth = 10;
     public int currentHealth;
     public Sprite playerImage;
 
+    //SFX Player
+    private AudioSource playerAudioSource;
+
+    public AudioClip jabSound;
+    //public AudioClip crossSound;
+    //public AudioClip deathSound;
 
 
     void Start()
@@ -47,6 +53,10 @@ public class PlayerController : MonoBehaviour
 
         //iniciar a vida do player
         currentHealth = maxHealth;
+
+        //inicia o componente AudioSource do player
+        playerAudioSource = GetComponent<AudioSource>();
+
     }
 
     private void Update()
@@ -149,11 +159,24 @@ public class PlayerController : MonoBehaviour
         //Acessa a animação do JAb
         //Ativa o gatilho de ataque Jab
         playerAnimator.SetTrigger("isJab");
+
+        //Definir o SFX à ser reproduzido
+        playerAudioSource.clip = jabSound;
+
+        //Executar o SFX
+        playerAudioSource.Play();
+
     }
 
     void PlayerCross()
     {
         playerAnimator.SetTrigger("isCross");
+
+        //Definir o SFX à ser reproduzido
+        playerAudioSource.clip = jabSound;
+
+        //Executar o SFX
+        playerAudioSource.Play();
     }
 
     IEnumerator CrossController()
@@ -183,6 +206,17 @@ public class PlayerController : MonoBehaviour
             currentHealth -= damage;
             playerAnimator.SetTrigger("HitDamage");
             FindFirstObjectByType<UIManager>().UpdatePlayerHealth(currentHealth);
+
+            if (currentHealth <= 0)
+            {
+                isDead = true; 
+
+                //gameObject.SetActive(false);
+
+
+
+            }
+
         }
     }
 }

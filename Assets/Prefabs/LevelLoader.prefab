@@ -149,6 +149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 6633642747082531383}
   transitionTime: 1
+  fases:
+  - fase1
+  - telainicial
 --- !u!1 &4037119787652791488
 GameObject:
   m_ObjectHideFlags: 0
