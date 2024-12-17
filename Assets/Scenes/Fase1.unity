@@ -634,7 +634,7 @@ MonoBehaviour:
   currentSpeed: 0
   playerDirection: {x: 0, y: 0}
   isDead: 0
-  maxHealth: 10
+  maxHealth: 1
   currentHealth: 0
   playerImage: {fileID: 21300000, guid: c0e72f6fe5cf368428531ca5b5bc5bde, type: 3}
   jabSound: {fileID: 8300000, guid: d18a26c7e1ddead47b0b6b8cdda687ed, type: 3}
@@ -2703,7 +2703,7 @@ Transform:
   m_GameObject: {fileID: 1151991546}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.715062, y: -2.267733, z: -11.269958}
+  m_LocalPosition: {x: -6.9150057, y: -2.267733, z: -11.269958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

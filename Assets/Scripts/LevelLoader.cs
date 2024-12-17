@@ -7,9 +7,6 @@ public class LevelLoader : MonoBehaviour
 
     public Animator transition;
     public float transitionTime = 1f;
-    public string[] fases;
-    [SerializeField] private int faseAtual = 0;
-
     void Start()
     {
 
@@ -18,26 +15,15 @@ public class LevelLoader : MonoBehaviour
 
     void Update()
     {
-        //telainicial
-        if (Input.GetKeyDown(KeyCode.Return) && faseAtual >= 1)
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-            faseAtual--;
-            StartCoroutine(CarregarFase(fases[1]));
-        }
-        //fase1
-        if (Input.GetKeyDown(KeyCode.Return) && faseAtual < 1)
-        {
-            faseAtual++;
-            StartCoroutine(CarregarFase(fases[0]));
-        }
-
-
-
+            StartCoroutine(CarregarFase("fase1"));
+        }   
     }
 
     // Corrotina - Coroutine
 
-    IEnumerator CarregarFase(string nomeFase)
+    public IEnumerator CarregarFase(string nomeFase)
     {
         //Iniciar animação
         transition.SetTrigger("Start");

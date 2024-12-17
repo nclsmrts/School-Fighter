@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -207,16 +208,17 @@ public class PlayerController : MonoBehaviour
             playerAnimator.SetTrigger("HitDamage");
             FindFirstObjectByType<UIManager>().UpdatePlayerHealth(currentHealth);
 
-            if (currentHealth <= 0)
-            {
-                isDead = true; 
 
-                //gameObject.SetActive(false);
-
-
-
-            }
 
         }
+        if (currentHealth <= 0)
+        {
+            isDead = true;
+
+            SceneManager.LoadScene("GameOver");
+            //gameObject.SetActive(false);
+        }
+
+
     }
 }
