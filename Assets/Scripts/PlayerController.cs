@@ -98,6 +98,11 @@ public class PlayerController : MonoBehaviour
 
         }
 
+        if (isDead && Input.GetKeyDown(KeyCode.Return))
+        {
+            SceneManager.LoadScene("TelaInicial");
+
+        }
 
     }
 
@@ -218,7 +223,6 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene("GameOver");
             //gameObject.SetActive(false);
         }
-
 
     }
 }
