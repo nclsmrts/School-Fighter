@@ -21,7 +21,7 @@ namespace Assets.Scripts
 
         }
 
-        
+
         void Update()
         {
 

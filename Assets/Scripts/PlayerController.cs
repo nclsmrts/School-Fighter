@@ -41,7 +41,6 @@ public class PlayerController : MonoBehaviour
     //public AudioClip crossSound;
     //public AudioClip deathSound;
 
-
     void Start()
     {
         // Obtem e inicializa as propriedades do RigidBody2D
@@ -98,11 +97,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (isDead && Input.GetKeyDown(KeyCode.Return))
-        {
-            SceneManager.LoadScene("TelaInicial");
 
-        }
 
     }
 
@@ -222,6 +217,11 @@ public class PlayerController : MonoBehaviour
 
             SceneManager.LoadScene("GameOver");
             //gameObject.SetActive(false);
+        }
+        if (isDead && Input.GetKeyDown(KeyCode.Return))
+        {
+            SceneManager.LoadScene("TelaInicial");
+
         }
 
     }
